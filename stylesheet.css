@@ -17,7 +17,7 @@ footer, .top {
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
-    padding: 10px 250px;
+    padding: 20px 250px;
 }
 
 .head-left {
@@ -36,9 +36,23 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     padding: 30px 250px;
-    gap: 50px;
+}
+
+.hero-info {
+    display: flex;
+    gap: 30px;
+    padding: 100px 0;
+}
+
+.image-placeholder {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 700px;
 }
 
 h2 {
@@ -125,7 +139,7 @@ button {
     border-radius: 8px;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 40px 80px;
+    padding: 50px 90px;
 }
 
 .call-box h3 {
